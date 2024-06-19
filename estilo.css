@@ -70,8 +70,9 @@ button:hover{
     background: rgb(128, 45, 45);
     transition: .5s;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
+  body{
     display:flex;
     flex-direction:column;
 }
-
+}
