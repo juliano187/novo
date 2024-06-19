@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.conteudo{
+    width: 320px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 7px #0a0a0a;
+margin: 20px;
+    border-radius: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.sobre{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:-100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.63);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: azure;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s;
+    gap: 20px;
+}
+h1{
+   text-transform: uppercase;
+   font-family: sans-serif;
+   font-weight: 800;
+}
+p{
+  
+  font-size: 14px;
+}
+button{
+    width: 100px;
+    border: none;
+    outline: none;
+ border-radius: 5px;
+ padding: 5px 0px;
+ cursor: pointer;
+ background: rgb(131, 24, 238);
+ color: azure;
+}
+.conteudo:hover .sobre{
+    right: 0;
+}
+button:hover{
+    background: rgb(128, 45, 45);
+    transition: .5s;
+}
