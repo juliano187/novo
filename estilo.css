@@ -1,4 +1,4 @@
-ç*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,10 +64,7 @@ button{
  background: rgb(131, 24, 238);
  color: azure;
 }
-h2{
-    font-family:sans-serif;
-    font-weight:800;
-}
+
 .conteudo:hover .sobre{
     right: 0;
 }
